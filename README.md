@@ -34,25 +34,31 @@ Unpack the basez-<version>.tar.gz source package in a src directory and 'cd'
 into it.
 
 For building configuration options type:
-
+```
   ./configure --help
-
+```
 To compile the software, type:
-
+```
   ./configure
   make
-
+```
 To install, type:
-
+```
   make install
+```  
 or
+```
   sudo make install
+```
 
 To uninstall, cd into the src/basez-x.x directory and type:
-
+```
   make uninstall
+```
 or
+```
   sudo make uninstall
+```
 
 
 BUILD, INSTALL DEB PACKAGE
@@ -64,15 +70,15 @@ Unpack the basez-<version>.tar.gz source package in a src directory and 'cd'
 into it.
 
 Build the package:
-
+```
   ./configure
   make debfiles
   debuild -us -uc -b
-
+```
 Install the package:
-
+```
   dpkg -i basez_<version>_<arch>.deb
-
+```
 
 BUILD, INSTALL RPM PACKAGE
 ==========================
@@ -80,21 +86,24 @@ Set up the standard development and package building tools distributed with
 Red Hat, CentOS, Fedora or a RPM-based distribution.
 
 Build the package:
-
+```
   rpmbuild -tb basez-<version>.tar.gz
-
+```
 Install the package:
-
+```
   rpm -Uvh basez-<version>-<arch>.rpm
-
+```
 
 QUICK START USAGE GUIDE
 =======================
 For list of program options, install the software and type:
-
+```
   basez --help
+```
 or
+```
   man basez
+```
 
 
 Copyright (C) 2013, 2015, 2016  Milan Kupcevic
