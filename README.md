@@ -30,7 +30,7 @@ Use the standard building tools freely available in Linux and BSD
 distributions, gratis "Command Line Tools for Xcode" on Mac, or free Mingw
 with MSYS on MS Windows.
 
-Unpack the basez-<version>.tar.gz source package in a src directory and 'cd'
+Unpack the `basez-<version>.tar.gz` source package in a src directory and `cd`
 into it.
 
 For building configuration options type:
@@ -66,7 +66,7 @@ BUILD, INSTALL DEB PACKAGE
 Install the standard development and package building tools distributed with
 Debian, Ubuntu or a Debian-based distribution.
 
-Unpack the basez-<version>.tar.gz source package in a src directory and 'cd'
+Unpack the `basez-<version>.tar.gz` source package in a src directory and `cd`
 into it.
 
 Build the package:
