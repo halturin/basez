@@ -1,0 +1,11 @@
+basez (_VERSION__DEB_DIST_ID_) stable; urgency=medium
+
+  To avoid conflicts with certain debian packages the unhex, base32 and base64
+  commands have been disabled by default.  A symlink to the basez executable
+  would enable the missing command functionality. For example,
+
+    ln -s /usr/bin/basez /usr/local/bin/unhex
+
+  would provide the unhex command of the basez package.
+
+ -- _DEBFULLNAME_ <_DEBEMAIL_>  _DEBDATE_

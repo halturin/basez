@@ -1,0 +1,5 @@
+basez (_VERSION__DEB_DIST_ID_) stable; urgency=medium
+
+  * Package release.
+
+ -- _DEBFULLNAME_ <_DEBEMAIL_>  _DEBDATE_
